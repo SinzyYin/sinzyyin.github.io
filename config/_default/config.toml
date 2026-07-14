@@ -1,7 +1,7 @@
 # Change baseurl before deploy
-baseurl = "https://starter.stack.cai.im/"
-locale  = "en-us"
-title   = "Hugo Theme Stack Starter"
+baseurl = "https://sinzyyin.github.io/"
+languageCode = "en-us"
+title = "Sin Yin's Blog"
 
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
@@ -15,4 +15,8 @@ hasCJKLanguage = false
 disqusShortname = "hugo-theme-stack"
 
 [pagination]
-    pagerSize = 5
+pagerSize = 5
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-K80XWS7126'

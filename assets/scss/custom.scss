@@ -1,3 +1,155 @@
 /*
     You can add your own custom styles here.
 */
+
+
+
+.img-sm {
+  max-height: 200px;
+}
+.img-sm img{
+  max-height:200px;
+}
+.img-md {
+  max-height: 250px;
+}
+.img-md img{
+  max-height:250px;
+}
+.img-lg {
+  max-height: 500px;
+}
+.img-lg img{
+  max-height:500px
+}
+
+
+:root {
+    --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
+    --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
+
+    --base-font-family: "Quicksand", Lato var(--sys-font-family), var(--zh-font-family), sans-serif;
+    --code-font-family: "Fira Code", Courier New, monospace;
+}
+
+// Title font
+body, .article-title {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
+code, pre, .highlight, .chroma {
+    font-weight: 400 !important; 
+    -webkit-font-smoothing: antialiased; 
+}
+
+.highlight span, .chroma span {
+    font-weight: inherit !important;
+}
+
+
+/* Make Middle Column Bigger (From grid.scss) */
+
+/* Two-column layout for archives page */
+@media (min-width: 1024px) {
+  .article-list--compact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: none;
+    box-shadow: none;
+    gap: 1rem;
+
+    article {
+      background: var(--card-background);
+      border: none;
+      box-shadow: var(--shadow-l2);
+      margin-bottom: 8px;
+      border-radius: 16px;
+    }
+  }
+}
+
+
+:root {
+    --body-background: #d9d3c9; // 页面背景色
+    --accent-color: #768052; // 主要强调色
+    --accent-color-darker: #545b3a; // 加深强调色
+    --body-text-color: #291e0a; // 边栏文字颜色等
+    --card-background: #e6dfd4; // 卡片背景色
+    --card-text-color-main: #291e0a; // 卡片主要文字的颜色
+    --card-text-color-secondary: #1e170b; // 卡片次要文字的颜色
+    --card-text-color-tertiary: #5d4f3c; // 卡片第三级文字的颜色
+    --tag-border-radius: 15px; // 标签圆角
+    --card-border-radius: 20px; // 卡片圆角
+    --code-background-color: #f5f3ef; // 行内代码背景色
+    --code-text-color: #737c50; // 行内代码文字颜色
+    --scrollbar-thumb: #5d4f3c; // 滚动条滑块颜色
+    --scrollbar-track: var(--body-background); // 滚动条轨道颜色
+    --card-separator-color: #768052; // 分割提示线
+    --blockquote-background-color: #cfc7bb; // 引用块背景色
+    --card-background-selected: #737c50; // 卡片选中状态的颜色
+
+    /* New variables for Table and Code Blocks */
+    --table-border-color: #cdc6bb;
+    --table-header-bg: #d4cec3;
+    --table-zebra-bg: #e6e0d6;
+    --block-code-bg: #dad4c8;
+    --block-code-text: #291e0a;
+
+    &[data-scheme="dark"] {
+        --body-background: #16130e; // 页面背景色
+        --accent-color: #b5c08d; // 主要强调色
+        --accent-color-darker: #4d513b; // 加深强调色
+        --body-text-color: #dedad2; // 边栏文字颜色等
+        --card-background: #1F1B14; // 卡片背景色
+        --card-text-color-main: #dedad2; // 卡片主要文字的颜色
+        --card-text-color-secondary: #dedad2; // 卡片次要文字的颜色
+        --card-text-color-tertiary: #dedad2; // 卡片第三级文字的颜色
+        --tag-border-radius: 15px; // 标签圆角
+        --card-border-radius: 20px; // 卡片圆角
+        --code-background-color: #2d271c; // 行内代码背景色
+        --code-text-color: #a4b471; // 行内代码文字颜色
+        --scrollbar-thumb: #5d4f3c; // 滚动条滑块颜色
+        --scrollbar-track: var(--body-background); // 滚动条轨道颜色
+        --card-separator-color: #a3ad7f;; // 分割提示线
+        --blockquote-background-color: #51576d; // 引用块背景色
+        --card-background-selected: #a3ad7f; // 下方页码标签底色
+
+        /* New variables for Table and Code Blocks (Dark) */
+        --table-border-color: #38332a;
+        --table-header-bg: #2a251d;
+        --table-zebra-bg: #221e17;
+        --block-code-bg: #26221a;
+        --block-code-text: #dedad2;
+    }
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block: 1rem;
+    background-color: transparent !important;
+}
+
+
+
+table th {
+    background-color: var(--table-header-bg) !important;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--table-zebra-bg) !important;
+}
+
+/* Code Block Styles */
+.highlight,
+.chroma,
+pre:not(.highlight):not(.chroma) {
+    background-color: var(--block-code-bg) !important;
+    color: var(--block-code-text) !important;
+    border-radius: 0 !important; /* Square corners */
+    margin-block: 1rem;
+    overflow-x: auto;
+}

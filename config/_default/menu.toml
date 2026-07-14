@@ -9,16 +9,24 @@
 
 [[social]]
     identifier = "github"
-    name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+    name = "GitHub"
+    url = "https://github.com/SinzyYin"
 
     [social.params]
-        icon = "brand-github"
+       icon = "brand-github"
 
 [[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+    identifier = "linkedin"
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/yapsinyin/"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "brand-linkedin"
+
+[[social]]
+    identifier = "resume"
+    name = "Resume"
+    url = "https://drive.google.com/file/d/1KZ2ARXw8H58uVYxW_q8JsKNu5LYS9MMe/view?usp=sharing"
+
+    [social.params]
+     icon = "file-cv"

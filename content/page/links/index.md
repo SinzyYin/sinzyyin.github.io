@@ -1,33 +1,31 @@
----
-title: Links
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-menu:
-    main: 
-        weight: 4
-        params:
-            icon: link
++++
+comments = false
+license = false
+readingtime = false
+title = 'Links'
 
-comments: false
----
+[[links]]
+  description = 'Stay connected with me on LinkedIn for updates on my work and professional journey.'
+  image = 'linkedin-logo.png'
+  title = 'My Linkedin'
+  website = 'https://www.linkedin.com/in/yapsinyin/'
 
-To use this feature, add `links` section to frontmatter.
+[[links]]
+  description = 'You can view or download my resume here, please don’t use it for anything harmful :<'
+  image = 'resume-logo.png'
+  title = 'My Resume'
+  website = 'https://drive.google.com/file/d/1KZ2ARXw8H58uVYxW_q8JsKNu5LYS9MMe/view?usp=sharing'
 
-This page's frontmatter:
+[[links]]
+  description = 'You can also check out the code for this website on my GitHub. It’s not perfect nor professional, but you’re welcome to look through it or use it as a reference.'
+  image = 'github-logo.png'
+  title = 'My Github'
+  website = 'https://github.com/SinzyYin/sinzyyin.github.io'
 
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
+[menu]
+  [menu.main]
+    weight = 5
 
-`image` field accepts both local and external images.
+    [menu.main.params]
+      icon = 'link'
++++
