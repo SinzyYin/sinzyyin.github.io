@@ -47,11 +47,11 @@ SortBy              = "default"
 
 [colorScheme]
     toggle  = true
-    default = "auto"
+    default = "dark"
 
 ## Comments
 [comments]
-    enabled  = true
+    enabled  = false
     provider = "disqus"
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml

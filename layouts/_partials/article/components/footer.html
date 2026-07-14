@@ -1,30 +1,12 @@
-<footer class="article-footer">
-    {{ partial "article/components/tags" . }}
 
-    {{ if and (.Site.Params.article.license.enabled) (not (eq .Params.license false)) }}
-    <section class="article-copyright">
-        {{ partial "helper/icon" "copyright" }}
-        <span>{{ default .Site.Params.article.license.default .Params.license | markdownify }}</span>
+{{- $ThemeVersion := "4.0.3" -}}
+<footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
+            {{ .Site.Params.footer.since }} - 
+        {{ end }}
+        {{ now.Format "2006" }} {{ default .Site.Title .Site.Copyright }}
     </section>
-    {{ end }}
-
-    {{- if ne .Lastmod .Date -}}
-    <section class="article-lastmod">
-        {{ partial "helper/icon" "clock" }}
-        <span>
-            <!-- {{ T "article.lastUpdatedOn" }} {{ .Lastmod | time.Format ( or .Site.Params.dateFormat.lastUpdated "Jan 02, 2006 15:04 MST" ) }} -->
-            {{ $day := .Lastmod.Day }}
-            {{ $month := .Lastmod.Format "January" }}
-            {{ $year := .Lastmod.Format "2006" }}
-
-            {{ $suffix := "th" }}
-            {{ if in (slice 1 21 31) $day }}{{ $suffix = "st" }}
-            {{ else if in (slice 2 22) $day }}{{ $suffix = "nd" }}
-            {{ else if in (slice 3 23) $day }}{{ $suffix = "rd" }}{{ end }}
-
-            Last updated on {{ $day }}{{ $suffix }} {{ $month }} {{ $year }}
-
-        </span>
-    </section>
-    {{- end -}}
+    
 </footer>
