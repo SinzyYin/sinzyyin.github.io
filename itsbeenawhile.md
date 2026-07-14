@@ -1,10 +1,13 @@
 For personal use
 
 
+### Hugo
+- To run server locally: Hugo Server
+
+
 ### Config
 1. Default Dark Mode
 2. Turn off Comment/Disqus function
-3.  
 
 ### What is Different
 1. Fonts
@@ -26,3 +29,5 @@ For personal use
    - Remove the code for that in layouts/_partials/footer/footer.html
 
 
+### Prerequisite
+- GO and HUGO are installed locally on programfiles
