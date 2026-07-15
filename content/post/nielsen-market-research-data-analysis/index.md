@@ -23,7 +23,7 @@ The full documentation of my analysis can be found in this PDF:
 
 The key spotlight of the project is the **Nielsen Research Consumer Attitudes 2020** dataset. You can view the dataset here: [Nielsen Consumer Attitudes 2020 Dataset](https://docs.google.com/spreadsheets/d/1rOvQxaaBT_3deMSkBUUmv91p_OeOvB9u/edit?usp=sharing&ouid=117627972370680311093&rtpof=true&sd=true)
 
-While the [Appendix B](https://file.garden/aSgFhNqucTCqhF8L/Portfolio/Nielsen/Nielsen%20Market%20Research%20Data%20Analysis.pdf#page=13)document the full extend of the data I analysed and summarised in table format.
+While the [Appendix B](https://file.garden/aSgFhNqucTCqhF8L/Portfolio/Nielsen/Nielsen%20Market%20Research%20Data%20Analysis.pdf#page=13) document the full extend of the data I analysed and summarised in table format.
 
 <hr>
 
