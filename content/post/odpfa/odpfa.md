@@ -1,5 +1,5 @@
 +++
-categories = ['projects']
+categories = ['reviews']
 date = '2025-07-30 12:01:00+0000'
 description = "My first introduction to Oracle! My reviews, thoughts and tips on the Oracle Data Platform 2025 Foundations Associate's Certificate."
 image = 'https://www.itechsolutionph.com/uploads/5/9/8/9/5989938/free-oracle-cloud-infrastructure-oci-training-and-certifications-at-oracle-university-as-part-of-the-race-to-certification-challenge_orig.jpg'

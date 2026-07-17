@@ -2,9 +2,9 @@
 categories = ['learning notes']
 date = '2025-08-16'
 metaRobots = 'noindex, nofollow'
-slug = 'data-cleaning-in-mysql-8.0-notes'
+slug = 'data-cleaning-in-mysql-8.0-note'
 tags = ['SQL', 'data cleaning']
-title = 'My First SQL Data Cleaning Project using MySQL 8.0 - Learning Notes'
+title = 'My First SQL Data Cleaning Project using MySQL 8.0 - Learning Note'
 +++
 
 # Data Cleaning in MYSQL 8.0

@@ -25,7 +25,7 @@ Through this **[Alex the Analyst's Data Cleaning in MySQL Tutorial](https://www.
 
 
 I gained hands-on experience with essential SQL techniques for cleaning and preparing data using **MySQL 8.0.43**. Below is a structured summary of the key concepts and methods I learned. The full workflow is documented here:
-**[Data Cleaning in MySQL 8.0 Learning Notes]({{< ref "post/data-cleaning-in-MySQL-8.0-notes/index.md" >}})**
+**[Data Cleaning in MySQL 8.0 - Learning Note]({{< ref "post/data-cleaning-in-MySQL-8.0-note/index.md" >}})**
 
 
 <hr>

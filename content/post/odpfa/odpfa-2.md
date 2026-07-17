@@ -9,7 +9,7 @@ url = 'projects/odpfa/:slug'
 +++
 
 > 📌 **Disclaimer:**  
-> This note is created for personal study purposes based the course videos by [Oracle University](https://mylearn.oracle.com/) for [Oracle Data Platform 2025 Foundations Associate](https://mylearn.oracle.com/ou/learning-path/become-an-oracle-data-platform-foundations-associate-2025/148510)
+> This note is created for personal study purposes based on the course videos by [Oracle University](https://mylearn.oracle.com/) for [Oracle Data Platform 2025 Foundations Associate](https://mylearn.oracle.com/ou/learning-path/become-an-oracle-data-platform-foundations-associate-2025/148510)
 >  
 > All content belongs to the original creator. This document summarizes and reflects my understanding and is not a transcript or official material.
 
