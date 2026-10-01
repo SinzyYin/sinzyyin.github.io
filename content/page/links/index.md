@@ -14,7 +14,7 @@ title = 'Links'
   description = 'You can view or download my resume here, please don’t use it for anything harmful :<'
   image = 'resume-logo.png'
   title = 'My Resume'
-  website = 'https://drive.google.com/file/d/1KZ2ARXw8H58uVYxW_q8JsKNu5LYS9MMe/view?usp=sharing'
+  website = 'https://drive.google.com/file/d/1-LcV5wkcDJI_ey4JHiHE312VmBsj_cLP/preview'
 
 [[links]]
   description = 'You can also check out the code for this website on my GitHub. It’s not perfect nor professional, but you’re welcome to look through it or use it as a reference.'

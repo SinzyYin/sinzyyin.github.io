@@ -84,7 +84,7 @@ The variables analysed included:
 Similarly, I used frequency tables for descriptive analysis to calculate the means first. I then applied the T-Test to obtain the P-value and determine which hypothesis to accept.
 
 
-![T-Test](https://file.garden/aSgFhNqucTCqhF8L/Portfolio/Ladder%20Art%20Space/paired-sample-t-test.png)
+![T-Test](https://file.garden/aSgFhNqucTCqhF8L/Portfolio/Ladder%20Art%20Space/t-test.png)
 
 **Note on Methodology:**
 In the screenshot above, I originally applied a **Paired Sample T-Test**. However, looking back, an **Independent Sample T-Test** would have been the correct choice. This is because a Paired test is designed for the *same* group of people being measured twice, whereas here I am comparing two completely separate groups (Pet Owners vs. Non-Owners).

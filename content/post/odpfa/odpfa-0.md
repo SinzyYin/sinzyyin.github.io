@@ -13,4 +13,4 @@ url = 'projects/odpfa/:slug'
 - [My Review of the Oracle Data Platform 2025 Certification]({{< ref "post/odpfa/odpfa.md" >}})
 - [Oracle Data Platform 2025 Foundations Associate Learning Notes (1) - Introduction to Data Management]({{< ref "post/odpfa/odpfa-1.md" >}})
 - [Oracle Data Platform 2025 Foundations Associate Learning Notes (2) - Convereged Database]({{< ref "post/odpfa/odpfa-2.md" >}})
-- [Oracle Data Platform 2025 Foundations Associate Learning Notes (1) - Exadata & Base Database Service]({{< ref "post/odpfa/odpfa-3.md" >}})
+- [Oracle Data Platform 2025 Foundations Associate Learning Notes (3) - Exadata & Base Database Service]({{< ref "post/odpfa/odpfa-3.md" >}})

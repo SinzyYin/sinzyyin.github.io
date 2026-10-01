@@ -59,8 +59,6 @@ Oracle APEX = low-code development platform integrated into the Autonomous Datab
 
 [Megaport MCR](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/megaport1582290752989.megaport_mcr?tab=overview) helps bridge cloud environments—public, private, hybrid, and multi-cloud setups—without physical routers.
 
-![Megaport Cloud Router (MCR)|450](https://docs.megaport.com/cloud/mcr/img/ovhcloud/ovh-mcr-redundant.png)
-
 **Features:**
 - Cloud-to-cloud communication
 - No need for physical hardware
